@@ -805,9 +805,26 @@
                     "3p.gradle": "Weak,HEAD",
                     "misc1.commons.options.main": "Strong,HEAD"
                 }
+            },
+            "qbt_fringe.linter.prerelease": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "prerelease"
+                },
+                "normalDeps": {
+                    "qbt_fringe.linter.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
+            "qbt_fringe.linter.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "release"
+                }
             }
         },
-        "version": "aab27fe300b943d23de1454afe5bcbbbe3552b98"
+        "version": "e91c133822d706c7c4b6eb02d51688c03a92a42d"
     },
     "misc1": {
         "packages": {
