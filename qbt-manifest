@@ -771,7 +771,8 @@
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
                     "mc.org.ow2.asm.asm.all": "Strong,HEAD",
-                    "misc1.commons.options.main": "Strong,HEAD"
+                    "misc1.commons.options.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt_fringe.link_checker.prerelease": {
@@ -792,7 +793,7 @@
                 }
             }
         },
-        "version": "284b874ad340b6eea12afa57405782ee3564265c"
+        "version": "e84bca4abdff8e3d11bfa83850c082ed66cc7838"
     },
     "linter": {
         "packages": {
@@ -803,7 +804,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "misc1.commons.options.main": "Strong,HEAD"
+                    "misc1.commons.options.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt_fringe.linter.prerelease": {
@@ -824,7 +826,7 @@
                 }
             }
         },
-        "version": "e91c133822d706c7c4b6eb02d51688c03a92a42d"
+        "version": "9ccc356f9024716e60ebb703418d67c4ca1c8bf6"
     },
     "misc1": {
         "packages": {
@@ -836,7 +838,8 @@
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
                     "mc.org.slf4j.slf4j.api": "Strong,HEAD",
-                    "misc1.commons.core.main": "Strong,HEAD"
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.commons.concurrent.test": {
@@ -846,7 +849,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "misc1.commons.concurrent.main": "Strong,HEAD"
+                    "misc1.commons.concurrent.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.commons.core.main": {
@@ -857,7 +861,8 @@
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
                     "mc.com.google.guava.guava": "Strong,HEAD",
-                    "mc.org.apache.commons.commons.lang3": "Strong,HEAD"
+                    "mc.org.apache.commons.commons.lang3": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.commons.core.test": {
@@ -867,7 +872,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "misc1.commons.core.main": "Strong,HEAD"
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.commons.options.main": {
@@ -877,7 +883,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "misc1.commons.core.main": "Strong,HEAD"
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.commons.options.test": {
@@ -887,7 +894,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "misc1.commons.options.main": "Strong,HEAD"
+                    "misc1.commons.options.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.third_party_tools.main": {
@@ -899,7 +907,8 @@
                     "3p.gradle": "Weak,HEAD",
                     "mc.org.apache.ivy.ivy": "Strong,HEAD",
                     "mc.org.apache.maven.maven.artifact": "Strong,HEAD",
-                    "qbt.app.main": "Strong,HEAD"
+                    "qbt.app.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.third_party_tools.release": {
@@ -919,11 +928,12 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "misc1.third_party_tools.main": "Strong,HEAD"
+                    "misc1.third_party_tools.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             }
         },
-        "version": "7cdb7e5b517c2c392cb01c2c864e5cc505a538aa"
+        "version": "d1e415b81ba7d37c47e110c198f5b90b4d180d9d"
     },
     "qbt": {
         "packages": {
@@ -937,7 +947,8 @@
                     "mc.org.apache.httpcomponents.httpclient": "Strong,HEAD",
                     "mc.org.codehaus.groovy.groovy.all": "Strong,HEAD",
                     "misc1.commons.concurrent.main": "Strong,HEAD",
-                    "qbt.bin.main": "Strong,HEAD"
+                    "qbt.bin.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt.app.test": {
@@ -947,7 +958,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "qbt.app.main": "Strong,HEAD"
+                    "qbt.app.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt.bin.main": {
@@ -959,7 +971,8 @@
                     "3p.gradle": "Weak,HEAD",
                     "mc.org.slf4j.slf4j.log4j12": "Strong,HEAD",
                     "misc1.commons.options.main": "Strong,HEAD",
-                    "qbt.lib.main": "Strong,HEAD"
+                    "qbt.lib.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt.bin.test": {
@@ -969,7 +982,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "qbt.bin.main": "Strong,HEAD"
+                    "qbt.bin.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt.lib.main": {
@@ -979,7 +993,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "misc1.commons.core.main": "Strong,HEAD"
+                    "misc1.commons.core.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt.lib.test": {
@@ -989,7 +1004,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "qbt.lib.main": "Strong,HEAD"
+                    "qbt.lib.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt.release": {
@@ -1003,7 +1019,7 @@
                 }
             }
         },
-        "version": "e285202764f377a9127053f6c70ca2385dbe994e"
+        "version": "f78efa8aed91368039192c30039032addff457c4"
     },
     "wrapper_generator": {
         "packages": {
@@ -1014,7 +1030,8 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "mc.com.google.guava.guava": "Strong,HEAD"
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt_fringe.wrapper_generator.prerelease": {
@@ -1035,6 +1052,6 @@
                 }
             }
         },
-        "version": "78465828baa9576290316a133e6fae2242f44743"
+        "version": "c6cec2dadd9060e08d26e9d26479dcc75b339c3f"
     }
 }
