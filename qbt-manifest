@@ -751,6 +751,16 @@
                     "qbt.app.main": "Strong,HEAD"
                 }
             },
+            "misc1.third_party_tools.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "third_party_tools/release"
+                },
+                "normalDeps": {
+                    "misc1.third_party_tools.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
             "misc1.third_party_tools.test": {
                 "metadata": {
                     "archIndependent": true,
@@ -762,7 +772,7 @@
                 }
             }
         },
-        "version": "da7b1687935b880d4ef02247a759c90e07468837"
+        "version": "7cdb7e5b517c2c392cb01c2c864e5cc505a538aa"
     },
     "qbt": {
         "packages": {
