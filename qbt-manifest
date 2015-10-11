@@ -654,9 +654,19 @@
                     "mc.org.ow2.asm.asm.all": "Strong,HEAD",
                     "misc1.commons.options.main": "Strong,HEAD"
                 }
+            },
+            "link_checker.prerelease": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "prerelease"
+                },
+                "normalDeps": {
+                    "link_checker.main": "Weak,HEAD",
+                    "wrapper_generator.release": "Weak,HEAD"
+                }
             }
         },
-        "version": "5972ff681353c2632714654261f2414b0ae9e43b"
+        "version": "78e4a5247b32667d7f6f5d18f7706c25c007a0e8"
     },
     "misc1": {
         "packages": {
