@@ -840,9 +840,19 @@
                     "qbt.app.main": "Strong,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
+            },
+            "meta_tools.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "release"
+                },
+                "normalDeps": {
+                    "meta_tools.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
             }
         },
-        "version": "2d874a32798ee017a73df210ce2f81428c815d9e"
+        "version": "eee22ff6155842ad04232c7518d1b0937589f249"
     },
     "misc1": {
         "packages": {
