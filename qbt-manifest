@@ -1,6 +1,13 @@
 {
     "3p": {
         "packages": {
+            "3p.gradle": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "gradle"
+                }
+            },
             "mc.ant.contrib.ant.contrib": {
                 "metadata": {
                     "archIndependent": true,
@@ -633,6 +640,6 @@
                 }
             }
         },
-        "version": "1501982a469bb9bd56c8bca0b27d5cccf9e8080a"
+        "version": "40daddbf8193b23472fd4e8a62d7696c0098c9fb"
     }
 }
