@@ -797,9 +797,19 @@
                     "3p.gradle": "Weak,HEAD",
                     "qbt.lib.main": "Strong,HEAD"
                 }
+            },
+            "qbt.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "release"
+                },
+                "normalDeps": {
+                    "qbt.app.main": "Weak,HEAD",
+                    "wrapper_generator.release": "Weak,HEAD"
+                }
             }
         },
-        "version": "2f7926162d31a811f0bbdf806a1d3d6122a7a59e"
+        "version": "e934b574ee8278c2d8a8ce3ae950dade02324fd5"
     },
     "wrapper_generator": {
         "packages": {
