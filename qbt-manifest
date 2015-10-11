@@ -705,9 +705,31 @@
                     "3p.gradle": "Weak,HEAD",
                     "misc1.commons.options.main": "Strong,HEAD"
                 }
+            },
+            "misc1.third_party_tools.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "third_party_tools/main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.apache.ivy.ivy": "Strong,HEAD",
+                    "mc.org.apache.maven.maven.artifact": "Strong,HEAD",
+                    "qbt.app.main": "Strong,HEAD"
+                }
+            },
+            "misc1.third_party_tools.test": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "third_party_tools/test"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.third_party_tools.main": "Strong,HEAD"
+                }
             }
         },
-        "version": "dffe6fa21d1b292b18ae5c3e29da249ac396f020"
+        "version": "da7b1687935b880d4ef02247a759c90e07468837"
     },
     "qbt": {
         "packages": {
