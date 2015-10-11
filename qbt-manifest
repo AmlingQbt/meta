@@ -708,5 +708,75 @@
             }
         },
         "version": "dffe6fa21d1b292b18ae5c3e29da249ac396f020"
+    },
+    "qbt": {
+        "packages": {
+            "qbt.app.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "app/main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.apache.httpcomponents.httpclient": "Strong,HEAD",
+                    "mc.org.codehaus.groovy.groovy.all": "Strong,HEAD",
+                    "misc1.commons.concurrent.main": "Strong,HEAD",
+                    "qbt.bin.main": "Strong,HEAD"
+                }
+            },
+            "qbt.app.test": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "app/test"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.app.main": "Strong,HEAD"
+                }
+            },
+            "qbt.bin.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "bin/main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.slf4j.slf4j.log4j12": "Strong,HEAD",
+                    "misc1.commons.options.main": "Strong,HEAD",
+                    "qbt.lib.main": "Strong,HEAD"
+                }
+            },
+            "qbt.bin.test": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "bin/test"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.bin.main": "Strong,HEAD"
+                }
+            },
+            "qbt.lib.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "lib/main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD"
+                }
+            },
+            "qbt.lib.test": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "lib/test"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.lib.main": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "2f7926162d31a811f0bbdf806a1d3d6122a7a59e"
     }
 }
