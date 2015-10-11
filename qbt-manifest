@@ -828,6 +828,22 @@
         },
         "version": "9ccc356f9024716e60ebb703418d67c4ca1c8bf6"
     },
+    "meta_tools": {
+        "packages": {
+            "meta_tools.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.app.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "2d874a32798ee017a73df210ce2f81428c815d9e"
+    },
     "misc1": {
         "packages": {
             "misc1.commons.concurrent.main": {
