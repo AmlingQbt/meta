@@ -813,6 +813,16 @@
                     "mc.com.google.guava.guava": "Strong,HEAD"
                 }
             },
+            "wrapper_generator.prerelease": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "prerelease"
+                },
+                "normalDeps": {
+                    "wrapper_generator.main": "Weak,HEAD",
+                    "wrapper_generator.release": "Weak,HEAD"
+                }
+            },
             "wrapper_generator.release": {
                 "metadata": {
                     "archIndependent": true,
@@ -821,6 +831,6 @@
                 }
             }
         },
-        "version": "ea0a4e2a4747932db31dc451893344350d3d2775"
+        "version": "d78159ce32f50e15e1c86ed68b9e104dd083a25b"
     }
 }
