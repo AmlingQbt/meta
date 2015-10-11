@@ -644,7 +644,7 @@
     },
     "link_checker": {
         "packages": {
-            "link_checker.main": {
+            "qbt_fringe.link_checker.main": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "main"
@@ -655,17 +655,17 @@
                     "misc1.commons.options.main": "Strong,HEAD"
                 }
             },
-            "link_checker.prerelease": {
+            "qbt_fringe.link_checker.prerelease": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "prerelease"
                 },
                 "normalDeps": {
-                    "link_checker.main": "Weak,HEAD",
-                    "wrapper_generator.release": "Weak,HEAD"
+                    "qbt_fringe.link_checker.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
             },
-            "link_checker.release": {
+            "qbt_fringe.link_checker.release": {
                 "metadata": {
                     "archIndependent": true,
                     "buildType": "COPY",
@@ -673,7 +673,7 @@
                 }
             }
         },
-        "version": "d23e2bc5a231a2dc0c434212c0fa0ab8f5a7ec15"
+        "version": "284b874ad340b6eea12afa57405782ee3564265c"
     },
     "misc1": {
         "packages": {
@@ -838,15 +838,15 @@
                 },
                 "normalDeps": {
                     "qbt.app.main": "Weak,HEAD",
-                    "wrapper_generator.release": "Weak,HEAD"
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
             }
         },
-        "version": "e934b574ee8278c2d8a8ce3ae950dade02324fd5"
+        "version": "e285202764f377a9127053f6c70ca2385dbe994e"
     },
     "wrapper_generator": {
         "packages": {
-            "wrapper_generator.main": {
+            "qbt_fringe.wrapper_generator.main": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "main"
@@ -856,17 +856,17 @@
                     "mc.com.google.guava.guava": "Strong,HEAD"
                 }
             },
-            "wrapper_generator.prerelease": {
+            "qbt_fringe.wrapper_generator.prerelease": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "prerelease"
                 },
                 "normalDeps": {
-                    "wrapper_generator.main": "Weak,HEAD",
-                    "wrapper_generator.release": "Weak,HEAD"
+                    "qbt_fringe.wrapper_generator.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
             },
-            "wrapper_generator.release": {
+            "qbt_fringe.wrapper_generator.release": {
                 "metadata": {
                     "archIndependent": true,
                     "buildType": "COPY",
@@ -874,6 +874,6 @@
                 }
             }
         },
-        "version": "d78159ce32f50e15e1c86ed68b9e104dd083a25b"
+        "version": "78465828baa9576290316a133e6fae2242f44743"
     }
 }
