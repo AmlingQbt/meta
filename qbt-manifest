@@ -642,6 +642,22 @@
         },
         "version": "40daddbf8193b23472fd4e8a62d7696c0098c9fb"
     },
+    "link_checker": {
+        "packages": {
+            "link_checker.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.ow2.asm.asm.all": "Strong,HEAD",
+                    "misc1.commons.options.main": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "5972ff681353c2632714654261f2414b0ae9e43b"
+    },
     "misc1": {
         "packages": {
             "misc1.commons.concurrent.main": {
