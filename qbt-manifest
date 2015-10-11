@@ -644,6 +644,27 @@
     },
     "misc1": {
         "packages": {
+            "misc1.commons.concurrent.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.concurrent/main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.org.slf4j.slf4j.api": "Strong,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD"
+                }
+            },
+            "misc1.commons.concurrent.test": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.concurrent/test"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.concurrent.main": "Strong,HEAD"
+                }
+            },
             "misc1.commons.core.main": {
                 "metadata": {
                     "archIndependent": true,
@@ -664,8 +685,28 @@
                     "3p.gradle": "Weak,HEAD",
                     "misc1.commons.core.main": "Strong,HEAD"
                 }
+            },
+            "misc1.commons.options.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.options/main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD"
+                }
+            },
+            "misc1.commons.options.test": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.options/test"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.options.main": "Strong,HEAD"
+                }
             }
         },
-        "version": "a857f10b3e0b0d8595644c4069a6475aaf914afc"
+        "version": "dffe6fa21d1b292b18ae5c3e29da249ac396f020"
     }
 }
