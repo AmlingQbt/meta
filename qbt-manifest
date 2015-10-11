@@ -16,19 +16,26 @@
                 "normalDeps": {
                     "mc.commons.httpclient.commons.httpclient": "Strong,HEAD",
                     "mc.org.apache.ant.ant": "Strong,HEAD",
-                    "mc.org.apache.bcel.bcel": "Strong,HEAD"
+                    "mc.org.apache.bcel.bcel": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.cglib.cglib.nodep": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/cglib/cglib-nodep"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.google.code.findbugs.jsr305": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/com.google.code.findbugs/jsr305"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.google.code.gson.gson": {
@@ -37,7 +44,8 @@
                     "prefix": "mc/com.google.code.gson/gson"
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.google.dexmaker.dexmaker": {
@@ -47,13 +55,17 @@
                 },
                 "normalDeps": {
                     "mc.com.google.dexmaker.dexmaker.dx": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.google.dexmaker.dexmaker.dx": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/com.google.dexmaker/dexmaker-dx"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.google.guava.guava": {
@@ -63,7 +75,8 @@
                 },
                 "normalDeps": {
                     "mc.com.google.code.findbugs.jsr305": "Strong,HEAD",
-                    "mc.javax.inject.javax.inject": "Strong,HEAD"
+                    "mc.javax.inject.javax.inject": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jsch": {
@@ -72,13 +85,17 @@
                     "prefix": "mc/com.jcraft/jsch"
                 },
                 "normalDeps": {
-                    "mc.com.jcraft.jzlib": "Strong,HEAD"
+                    "mc.com.jcraft.jzlib": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jsch.agentproxy": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jsch.agentproxy.connector.factory": {
@@ -91,13 +108,17 @@
                     "mc.com.jcraft.jsch.agentproxy.pageant": "Strong,HEAD",
                     "mc.com.jcraft.jsch.agentproxy.sshagent": "Strong,HEAD",
                     "mc.com.jcraft.jsch.agentproxy.usocket.jna": "Strong,HEAD",
-                    "mc.com.jcraft.jsch.agentproxy.usocket.nc": "Strong,HEAD"
+                    "mc.com.jcraft.jsch.agentproxy.usocket.nc": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jsch.agentproxy.core": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.core"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jsch.agentproxy.jsch": {
@@ -107,7 +128,8 @@
                 },
                 "normalDeps": {
                     "mc.com.jcraft.jsch": "Strong,HEAD",
-                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD"
+                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jsch.agentproxy.pageant": {
@@ -118,7 +140,8 @@
                 "normalDeps": {
                     "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
                     "mc.net.java.dev.jna.jna": "Strong,HEAD",
-                    "mc.net.java.dev.jna.platform": "Strong,HEAD"
+                    "mc.net.java.dev.jna.platform": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jsch.agentproxy.sshagent": {
@@ -127,7 +150,8 @@
                     "prefix": "mc/com.jcraft/jsch.agentproxy.sshagent"
                 },
                 "normalDeps": {
-                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD"
+                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jsch.agentproxy.usocket.jna": {
@@ -138,7 +162,8 @@
                 "normalDeps": {
                     "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
                     "mc.net.java.dev.jna.jna": "Strong,HEAD",
-                    "mc.net.java.dev.jna.platform": "Strong,HEAD"
+                    "mc.net.java.dev.jna.platform": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jsch.agentproxy.usocket.nc": {
@@ -147,13 +172,17 @@
                     "prefix": "mc/com.jcraft/jsch.agentproxy.usocket-nc"
                 },
                 "normalDeps": {
-                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD"
+                    "mc.com.jcraft.jsch.agentproxy.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.com.jcraft.jzlib": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jzlib"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.commons.codec.commons.codec": {
@@ -162,7 +191,8 @@
                     "prefix": "mc/commons-codec/commons-codec"
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.commons.collections.commons.collections": {
@@ -171,7 +201,8 @@
                     "prefix": "mc/commons-collections/commons-collections"
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.commons.httpclient.commons.httpclient": {
@@ -182,7 +213,8 @@
                 "normalDeps": {
                     "mc.commons.codec.commons.codec": "Strong,HEAD",
                     "mc.commons.logging.commons.logging": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.commons.io.commons.io": {
@@ -191,7 +223,8 @@
                     "prefix": "mc/commons-io/commons-io"
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.commons.lang.commons.lang": {
@@ -200,7 +233,8 @@
                     "prefix": "mc/commons-lang/commons-lang"
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.commons.logging.commons.logging": {
@@ -212,7 +246,8 @@
                     "mc.javax.servlet.servlet.api": "Strong,HEAD",
                     "mc.junit.junit": "Strong,HEAD",
                     "mc.log4j.log4j": "Strong,HEAD",
-                    "mc.logkit.logkit": "Strong,HEAD"
+                    "mc.logkit.logkit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.commons.net.commons.net": {
@@ -221,7 +256,8 @@
                     "prefix": "mc/commons-net/commons-net"
                 },
                 "normalDeps": {
-                    "mc.oro.oro": "Strong,HEAD"
+                    "mc.oro.oro": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.commons.vfs.commons.vfs": {
@@ -238,31 +274,44 @@
                     "mc.jdom.jdom": "Strong,HEAD",
                     "mc.org.apache.ant.ant": "Strong,HEAD",
                     "mc.oro.oro": "Strong,HEAD",
-                    "mc.xml.apis.xml.apis": "Strong,HEAD"
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.hsqldb.hsqldb": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/hsqldb/hsqldb"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.jakarta.regexp.jakarta.regexp": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/jakarta-regexp/jakarta-regexp"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.javax.activation.activation": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/javax.activation/activation"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.javax.inject.javax.inject": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/javax.inject/javax.inject"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.javax.mail.mail": {
@@ -272,19 +321,26 @@
                 },
                 "normalDeps": {
                     "mc.javax.activation.activation": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.javax.servlet.servlet.api": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/javax.servlet/servlet-api"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.jaxen.jaxen": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/jaxen/jaxen"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.jdom.jdom": {
@@ -297,7 +353,8 @@
                     "mc.saxpath.saxpath": "Strong,HEAD",
                     "mc.xalan.xalan": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
-                    "mc.xml.apis.xml.apis": "Strong,HEAD"
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.junit.junit": {
@@ -306,7 +363,8 @@
                     "prefix": "mc/junit/junit"
                 },
                 "normalDeps": {
-                    "mc.org.hamcrest.hamcrest.core": "Strong,HEAD"
+                    "mc.org.hamcrest.hamcrest.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.log4j.apache.log4j.extras": {
@@ -318,7 +376,8 @@
                     "mc.hsqldb.hsqldb": "Strong,HEAD",
                     "mc.junit.junit": "Strong,HEAD",
                     "mc.log4j.log4j": "Strong,HEAD",
-                    "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD"
+                    "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.log4j.log4j": {
@@ -330,19 +389,26 @@
                     "mc.javax.mail.mail": "Strong,HEAD",
                     "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD",
-                    "mc.oro.oro": "Strong,HEAD"
+                    "mc.oro.oro": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.logkit.logkit": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/logkit/logkit"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.net.java.dev.jna.jna": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/net.java.dev.jna/jna"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.net.java.dev.jna.platform": {
@@ -351,7 +417,8 @@
                     "prefix": "mc/net.java.dev.jna/platform"
                 },
                 "normalDeps": {
-                    "mc.net.java.dev.jna.jna": "Strong,HEAD"
+                    "mc.net.java.dev.jna.jna": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.ant.ant": {
@@ -363,7 +430,8 @@
                     "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant.launcher": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
-                    "mc.xml.apis.xml.apis": "Strong,HEAD"
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.ant.ant.launcher": {
@@ -372,7 +440,8 @@
                     "prefix": "mc/org.apache.ant/ant-launcher"
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.ant.ant.nodeps": {
@@ -384,7 +453,8 @@
                     "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
-                    "mc.xml.apis.xml.apis": "Strong,HEAD"
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.ant.ant.testutil": {
@@ -394,7 +464,8 @@
                 },
                 "normalDeps": {
                     "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.apache.ant.ant": "Strong,HEAD"
+                    "mc.org.apache.ant.ant": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.ant.ant.trax": {
@@ -407,7 +478,8 @@
                     "mc.org.apache.ant.ant": "Strong,HEAD",
                     "mc.xalan.xalan": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
-                    "mc.xml.apis.xml.apis": "Strong,HEAD"
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.bcel.bcel": {
@@ -416,7 +488,8 @@
                     "prefix": "mc/org.apache.bcel/bcel"
                 },
                 "normalDeps": {
-                    "mc.jakarta.regexp.jakarta.regexp": "Strong,HEAD"
+                    "mc.jakarta.regexp.jakarta.regexp": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.commons.commons.lang3": {
@@ -427,13 +500,17 @@
                 "normalDeps": {
                     "mc.commons.io.commons.io": "Strong,HEAD",
                     "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.easymock.easymock": "Strong,HEAD"
+                    "mc.org.easymock.easymock": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/org.apache.geronimo.specs/geronimo-jms_1.1_spec"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.httpcomponents.httpclient": {
@@ -446,7 +523,8 @@
                     "mc.commons.logging.commons.logging": "Strong,HEAD",
                     "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.httpcomponents.httpcore": "Strong,HEAD",
-                    "mc.org.mockito.mockito.core": "Strong,HEAD"
+                    "mc.org.mockito.mockito.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.httpcomponents.httpcore": {
@@ -457,7 +535,8 @@
                 "normalDeps": {
                     "mc.commons.logging.commons.logging": "Strong,HEAD",
                     "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.mockito.mockito.core": "Strong,HEAD"
+                    "mc.org.mockito.mockito.core": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.ivy.ivy": {
@@ -484,7 +563,8 @@
                     "mc.org.bouncycastle.bcprov.jdk14": "Strong,HEAD",
                     "mc.oro.oro": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
-                    "mc.xerces.xmlParserAPIs": "Strong,HEAD"
+                    "mc.xerces.xmlParserAPIs": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.apache.maven.maven.artifact": {
@@ -494,7 +574,8 @@
                 },
                 "normalDeps": {
                     "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.codehaus.plexus.plexus.utils": "Strong,HEAD"
+                    "mc.org.codehaus.plexus.plexus.utils": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.bouncycastle.bcpg.jdk14": {
@@ -503,25 +584,35 @@
                     "prefix": "mc/org.bouncycastle/bcpg-jdk14"
                 },
                 "normalDeps": {
-                    "mc.org.bouncycastle.bcprov.jdk14": "Strong,HEAD"
+                    "mc.org.bouncycastle.bcprov.jdk14": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.bouncycastle.bcprov.jdk14": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/org.bouncycastle/bcprov-jdk14"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.codehaus.groovy.groovy.all": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/org.codehaus.groovy/groovy-all"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.codehaus.plexus.plexus.utils": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/org.codehaus.plexus/plexus-utils"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.easymock.easymock": {
@@ -533,13 +624,17 @@
                     "mc.cglib.cglib.nodep": "Strong,HEAD",
                     "mc.com.google.dexmaker.dexmaker": "Strong,HEAD",
                     "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.objenesis.objenesis": "Strong,HEAD"
+                    "mc.org.objenesis.objenesis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.hamcrest.hamcrest.core": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/org.hamcrest/hamcrest-core"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.mockito.mockito.core": {
@@ -550,7 +645,8 @@
                 "normalDeps": {
                     "mc.org.apache.ant.ant": "Strong,HEAD",
                     "mc.org.hamcrest.hamcrest.core": "Strong,HEAD",
-                    "mc.org.objenesis.objenesis": "Strong,HEAD"
+                    "mc.org.objenesis.objenesis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.objenesis.objenesis": {
@@ -559,13 +655,17 @@
                     "prefix": "mc/org.objenesis/objenesis"
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.ow2.asm.asm.all": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/org.ow2.asm/asm-all"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.slf4j.slf4j.api": {
@@ -574,7 +674,8 @@
                     "prefix": "mc/org.slf4j/slf4j-api"
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.org.slf4j.slf4j.log4j12": {
@@ -585,19 +686,26 @@
                 "normalDeps": {
                     "mc.junit.junit": "Strong,HEAD",
                     "mc.log4j.log4j": "Strong,HEAD",
-                    "mc.org.slf4j.slf4j.api": "Strong,HEAD"
+                    "mc.org.slf4j.slf4j.api": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.oro.oro": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/oro/oro"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.saxpath.saxpath": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/saxpath/saxpath"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.xalan.xalan": {
@@ -608,7 +716,8 @@
                 "normalDeps": {
                     "mc.org.apache.bcel.bcel": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
-                    "mc.xml.apis.xml.apis": "Strong,HEAD"
+                    "mc.xml.apis.xml.apis": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.xerces.xercesImpl": {
@@ -618,29 +727,39 @@
                 },
                 "normalDeps": {
                     "mc.xml.apis.xml.apis": "Strong,HEAD",
-                    "mc.xml.resolver.xml.resolver": "Strong,HEAD"
+                    "mc.xml.resolver.xml.resolver": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.xerces.xmlParserAPIs": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/xerces/xmlParserAPIs"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.xml.apis.xml.apis": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/xml-apis/xml-apis"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
             "mc.xml.resolver.xml.resolver": {
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "mc/xml-resolver/xml-resolver"
+                },
+                "normalDeps": {
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             }
         },
-        "version": "40daddbf8193b23472fd4e8a62d7696c0098c9fb"
+        "version": "9088e29e3d4f149b6a4eae0db08541b620cdef20"
     },
     "link_checker": {
         "packages": {
