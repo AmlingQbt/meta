@@ -664,9 +664,16 @@
                     "link_checker.main": "Weak,HEAD",
                     "wrapper_generator.release": "Weak,HEAD"
                 }
+            },
+            "link_checker.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "release"
+                }
             }
         },
-        "version": "78e4a5247b32667d7f6f5d18f7706c25c007a0e8"
+        "version": "d23e2bc5a231a2dc0c434212c0fa0ab8f5a7ec15"
     },
     "misc1": {
         "packages": {
