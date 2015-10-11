@@ -812,8 +812,15 @@
                     "3p.gradle": "Weak,HEAD",
                     "mc.com.google.guava.guava": "Strong,HEAD"
                 }
+            },
+            "wrapper_generator.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "release"
+                }
             }
         },
-        "version": "7a43e58ee59820391c6cf92e52e1faf8f5910814"
+        "version": "ea0a4e2a4747932db31dc451893344350d3d2775"
     }
 }
