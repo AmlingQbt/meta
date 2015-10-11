@@ -794,6 +794,21 @@
         },
         "version": "284b874ad340b6eea12afa57405782ee3564265c"
     },
+    "linter": {
+        "packages": {
+            "qbt_fringe.linter.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.options.main": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "aab27fe300b943d23de1454afe5bcbbbe3552b98"
+    },
     "misc1": {
         "packages": {
             "misc1.commons.concurrent.main": {
