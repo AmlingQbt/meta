@@ -641,5 +641,31 @@
             }
         },
         "version": "40daddbf8193b23472fd4e8a62d7696c0098c9fb"
+    },
+    "misc1": {
+        "packages": {
+            "misc1.commons.core.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.core/main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "mc.org.apache.commons.commons.lang3": "Strong,HEAD"
+                }
+            },
+            "misc1.commons.core.test": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.core/test"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "misc1.commons.core.main": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "a857f10b3e0b0d8595644c4069a6475aaf914afc"
     }
 }
