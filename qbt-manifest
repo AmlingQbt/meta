@@ -1046,7 +1046,8 @@
                     "prefix": "qbtbuildtool.com"
                 },
                 "normalDeps": {
-                    "meta_tools.release": "Weak,HEAD"
+                    "meta_tools.release": "Weak,HEAD",
+                    "qbt.docs": "Strong,HEAD"
                 }
             },
             "qbt.release": {
@@ -1060,7 +1061,7 @@
                 }
             }
         },
-        "version": "cbe88aafea725a1f8d4080dbdbef695939da2f0a"
+        "version": "ac89b38de537fba6898b290535d641a7faf2f4b5"
     },
     "wrapper_generator": {
         "packages": {
