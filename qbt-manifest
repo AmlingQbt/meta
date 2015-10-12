@@ -1012,6 +1012,12 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
+            "qbt.docs": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "docs"
+                }
+            },
             "qbt.lib.main": {
                 "metadata": {
                     "archIndependent": true,
@@ -1054,7 +1060,7 @@
                 }
             }
         },
-        "version": "692c1e1656f8d61d39544ea50cd21de6022a21d8"
+        "version": "cbe88aafea725a1f8d4080dbdbef695939da2f0a"
     },
     "wrapper_generator": {
         "packages": {
