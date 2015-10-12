@@ -1034,6 +1034,15 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
+            "qbt.qbtbuildtool.com": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "qbtbuildtool.com"
+                },
+                "normalDeps": {
+                    "meta_tools.release": "Weak,HEAD"
+                }
+            },
             "qbt.release": {
                 "metadata": {
                     "archIndependent": true,
@@ -1045,7 +1054,7 @@
                 }
             }
         },
-        "version": "f3719ad7e48a2989e32650be1d7759a8f90caca9"
+        "version": "692c1e1656f8d61d39544ea50cd21de6022a21d8"
     },
     "wrapper_generator": {
         "packages": {
