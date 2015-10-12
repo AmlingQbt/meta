@@ -1026,6 +1026,10 @@
                 "metadata": {
                     "archIndependent": true,
                     "prefix": "docs"
+                },
+                "normalDeps": {
+                    "mc.org.commonjava.googlecode.markdown4j.markdown4j": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt.lib.main": {
@@ -1071,7 +1075,7 @@
                 }
             }
         },
-        "version": "ac89b38de537fba6898b290535d641a7faf2f4b5"
+        "version": "aaf9e325144867890d4e632e0126fb0872709ae9"
     },
     "wrapper_generator": {
         "packages": {
