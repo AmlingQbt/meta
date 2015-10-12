@@ -615,6 +615,16 @@
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
+            "mc.org.commonjava.googlecode.markdown4j.markdown4j": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/org.commonjava.googlecode.markdown4j/markdown4j"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
             "mc.org.easymock.easymock": {
                 "metadata": {
                     "archIndependent": true,
@@ -759,7 +769,7 @@
                 }
             }
         },
-        "version": "9088e29e3d4f149b6a4eae0db08541b620cdef20"
+        "version": "7c67c815508b967d4d9a9d2cee880dfc972b9904"
     },
     "link_checker": {
         "packages": {
