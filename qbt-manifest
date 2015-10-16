@@ -761,6 +761,33 @@
         },
         "version": "9088e29e3d4f149b6a4eae0db08541b620cdef20"
     },
+    "eclipse_gen": {
+        "packages": {
+            "qbt_fringe.eclipse_gen.simple.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "simple/main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "qbt.lib.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "qbt_fringe.eclipse_gen.simple.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "simple/release"
+                },
+                "normalDeps": {
+                    "qbt_fringe.eclipse_gen.simple.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            }
+        },
+        "version": "cb5fb8b2f78ac89b6f9aba83a02b180c0024a3a6"
+    },
     "link_checker": {
         "packages": {
             "qbt_fringe.link_checker.main": {
