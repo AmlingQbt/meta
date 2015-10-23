@@ -615,6 +615,16 @@
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
+            "mc.org.commonjava.googlecode.markdown4j.markdown4j": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/org.commonjava.googlecode.markdown4j/markdown4j"
+                },
+                "normalDeps": {
+                    "mc.junit.junit": "Strong,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
             "mc.org.easymock.easymock": {
                 "metadata": {
                     "archIndependent": true,
@@ -759,7 +769,7 @@
                 }
             }
         },
-        "version": "9088e29e3d4f149b6a4eae0db08541b620cdef20"
+        "version": "7c67c815508b967d4d9a9d2cee880dfc972b9904"
     },
     "eclipse_gen": {
         "packages": {
@@ -1039,6 +1049,16 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
+            "qbt.docs": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "docs"
+                },
+                "normalDeps": {
+                    "mc.org.commonjava.googlecode.markdown4j.markdown4j": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
             "qbt.lib.main": {
                 "metadata": {
                     "archIndependent": true,
@@ -1061,6 +1081,16 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
+            "qbt.qbtbuildtool.com": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "qbtbuildtool.com"
+                },
+                "normalDeps": {
+                    "meta_tools.release": "Weak,HEAD",
+                    "qbt.docs": "Strong,HEAD"
+                }
+            },
             "qbt.release": {
                 "metadata": {
                     "archIndependent": true,
@@ -1072,7 +1102,7 @@
                 }
             }
         },
-        "version": "7eb7c1d39401f3c014ce4421cb8cb9ed3559cf67"
+        "version": "f5895615ccbd06aa1327fba2672382dadacb52de"
     },
     "wrapper_generator": {
         "packages": {
