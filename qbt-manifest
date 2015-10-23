@@ -786,7 +786,7 @@
                 }
             }
         },
-        "version": "79d2cfcc14adcb473fd6ba117222e568cc1d4b7d"
+        "version": "13216ca9f479cfa045567e447072f54e75505579"
     },
     "link_checker": {
         "packages": {
@@ -820,7 +820,7 @@
                 }
             }
         },
-        "version": "72fbc8c5d111593a12f3886b9b04eb932524f6d4"
+        "version": "ebaaf5620b876f69a4efec8c295a176bd0fd9f2a"
     },
     "linter": {
         "packages": {
@@ -853,7 +853,7 @@
                 }
             }
         },
-        "version": "421a90aaaaa1c0dc3c0944fb37e1cc9ede0a2389"
+        "version": "da5ec25d6ef484354b7d7a1705268ff54d793351"
     },
     "meta_tools": {
         "packages": {
@@ -879,7 +879,7 @@
                 }
             }
         },
-        "version": "f35ccbdcaeb10857ced9535a5163977d219252ae"
+        "version": "3abd4da07bde368a04f739a28a3ccf51ed152b84"
     },
     "misc1": {
         "packages": {
@@ -986,7 +986,7 @@
                 }
             }
         },
-        "version": "05d20ae6a77926f7c40f17c773520e3a94575d12"
+        "version": "211b9fc7b3ad0bc2a503831e015a6fadef213785"
     },
     "qbt": {
         "packages": {
@@ -1072,7 +1072,7 @@
                 }
             }
         },
-        "version": "c61a984fd2de48fe59d833b29503f05c5927f763"
+        "version": "4cacee68647555fb0a205100fc4a8e30a7a5920c"
     },
     "wrapper_generator": {
         "packages": {
@@ -1105,6 +1105,6 @@
                 }
             }
         },
-        "version": "2d6662a67dda948edb9bc74309abc5de76e3bd92"
+        "version": "e41f89c845314240ac8272c63966866006439e44"
     }
 }
