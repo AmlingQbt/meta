@@ -996,7 +996,7 @@
                 }
             }
         },
-        "version": "b02f1c65efced6f98eb2256c4bd0957abf61250b"
+        "version": "b533750706fec0e58be76a61329945c61c281d4c"
     },
     "qbt": {
         "packages": {
@@ -1102,7 +1102,7 @@
                 }
             }
         },
-        "version": "742397e8fdf75391e2999f7190c40a6ff8929fc1"
+        "version": "1c0c711140741585b637f5d507f1fca98a7bc58d"
     },
     "wrapper_generator": {
         "packages": {
