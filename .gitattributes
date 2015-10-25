@@ -1,1 +1,1 @@
-/qbt-manifest merge=qbt-manifest
+/qbt-manifest merge=qbt-manifest diff=qbt-manifest
