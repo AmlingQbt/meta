@@ -1007,6 +1007,7 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.code.gson.gson": "Strong,HEAD",
                     "mc.org.apache.httpcomponents.httpclient": "Strong,HEAD",
                     "mc.org.codehaus.groovy.groovy.all": "Strong,HEAD",
                     "misc1.commons.concurrent.main": "Strong,HEAD",
@@ -1102,7 +1103,7 @@
                 }
             }
         },
-        "version": "7fcad8179882deef4125689b291ba5f25413dac1"
+        "version": "9bb937d7d7f4f19bf5512df74ba494b2741f0db1"
     },
     "wrapper_generator": {
         "packages": {
