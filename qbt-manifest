@@ -998,6 +998,9 @@
         },
         "version": "f56fe72c4f9651641088091c843515dbbd23bbce"
     },
+    "pbt": {
+        "version": "6536ce19ce1bdbbc54a95731f4852971ab62f097"
+    },
     "qbt": {
         "packages": {
             "qbt.app.main": {
