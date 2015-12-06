@@ -999,7 +999,35 @@
         "version": "f56fe72c4f9651641088091c843515dbbd23bbce"
     },
     "pbt": {
-        "version": "6536ce19ce1bdbbc54a95731f4852971ab62f097"
+        "packages": {
+            "pbt.bin": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "bin"
+                },
+                "normalDeps": {
+                    "pbt.lib": "Strong,HEAD"
+                }
+            },
+            "pbt.lib": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "lib"
+                }
+            },
+            "pbt.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "release"
+                },
+                "normalDeps": {
+                    "pbt.bin": "Strong,HEAD"
+                }
+            }
+        },
+        "version": "fbfaecd169c7e8f99be51f5d6984a6259c14969d"
     },
     "qbt": {
         "packages": {
