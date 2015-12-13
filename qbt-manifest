@@ -874,7 +874,7 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "qbt.app.main": "Strong,HEAD",
+                    "qbt.app.cmd": "Strong,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
@@ -1029,6 +1029,16 @@
     },
     "qbt": {
         "packages": {
+            "qbt.app.cmd": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "app/cmd"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "qbt.app.main": "Strong,HEAD"
+                }
+            },
             "qbt.app.main": {
                 "metadata": {
                     "archIndependent": true,
@@ -1127,12 +1137,12 @@
                     "prefix": "release"
                 },
                 "normalDeps": {
-                    "qbt.app.main": "Weak,HEAD",
+                    "qbt.app.cmd": "Weak,HEAD",
                     "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
             }
         },
-        "version": "6fffeca461a860481619c3474a868277502ccd04"
+        "version": "c709af4da2261e0fa2ad2a975dabf5b72b1d4285"
     },
     "wrapper_generator": {
         "packages": {
