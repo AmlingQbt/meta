@@ -893,6 +893,29 @@
     },
     "misc1": {
         "packages": {
+            "misc1.commons.algo.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.algo/main"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "misc1.commons.algo.test": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.algo/test"
+                },
+                "normalDeps": {
+                    "3p.gradle": "Weak,HEAD",
+                    "mc.junit.junit": "Strong,HEAD",
+                    "misc1.commons.algo.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
             "misc1.commons.concurrent.main": {
                 "metadata": {
                     "archIndependent": true,
@@ -996,7 +1019,7 @@
                 }
             }
         },
-        "version": "7c589da304ba80fb44c0088f98967dafc05d8918"
+        "version": "7ddfe6d64ca47af17d371ce9ee8fdcafd8930c46"
     },
     "pbt": {
         "packages": {
