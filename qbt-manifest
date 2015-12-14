@@ -1072,6 +1072,7 @@
                     "mc.com.google.code.gson.gson": "Strong,HEAD",
                     "mc.org.apache.httpcomponents.httpclient": "Strong,HEAD",
                     "mc.org.codehaus.groovy.groovy.all": "Strong,HEAD",
+                    "misc1.commons.algo.main": "Strong,HEAD",
                     "misc1.commons.concurrent.main": "Strong,HEAD",
                     "qbt.bin.main": "Strong,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
@@ -1165,7 +1166,7 @@
                 }
             }
         },
-        "version": "8d0254b472ca19477129160569050604c2b9dfeb"
+        "version": "835b0a9ac6dfe6bd13b7a740f0e184799f7321cd"
     },
     "wrapper_generator": {
         "packages": {
