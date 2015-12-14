@@ -841,29 +841,34 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "misc1.commons.options.main": "Strong,HEAD",
-                    "qbt_fringe.linter.release": "Weak,HEAD"
+                    "misc1.commons.options.main": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "qbt_fringe.linter.main.lint/lint": 1
                 }
             },
-            "qbt_fringe.linter.prerelease": {
+            "qbt_fringe.linter.main.lint": {
                 "metadata": {
                     "archIndependent": true,
-                    "prefix": "prerelease"
+                    "prefix": ".main.lint"
                 },
                 "normalDeps": {
                     "qbt_fringe.linter.main": "Weak,HEAD",
-                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "qbt_fringe.linter.release": {
                 "metadata": {
                     "archIndependent": true,
-                    "buildType": "COPY",
                     "prefix": "release"
+                },
+                "normalDeps": {
+                    "qbt_fringe.linter.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
             }
         },
-        "version": "b1fe6fd824f47b2a389128feaef783b9439901cc"
+        "version": "9f452b07cd116a1b2c6699d90733c1a1e3a38764"
     },
     "meta_tools": {
         "packages": {
@@ -953,11 +958,21 @@
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
                     "mc.com.google.guava.guava": "Strong,HEAD",
-                    "mc.org.apache.commons.commons.lang3": "Strong,HEAD",
-                    "qbt_fringe.linter.release": "Weak,HEAD"
+                    "mc.org.apache.commons.commons.lang3": "Strong,HEAD"
                 },
                 "verifyDeps": {
+                    "misc1.commons.core.main.lint/lint": 1,
                     "misc1.commons.core.test/test": 1
+                }
+            },
+            "misc1.commons.core.main.lint": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.core/.main.lint"
+                },
+                "normalDeps": {
+                    "misc1.commons.core.main": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.commons.core.test": {
@@ -978,11 +993,21 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "misc1.commons.core.main": "Strong,HEAD",
-                    "qbt_fringe.linter.release": "Weak,HEAD"
+                    "misc1.commons.core.main": "Strong,HEAD"
                 },
                 "verifyDeps": {
+                    "misc1.commons.options.main.lint/lint": 1,
                     "misc1.commons.options.test/test": 1
+                }
+            },
+            "misc1.commons.options.main.lint": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.options/.main.lint"
+                },
+                "normalDeps": {
+                    "misc1.commons.options.main": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.commons.options.test": {
@@ -1034,7 +1059,7 @@
                 }
             }
         },
-        "version": "a3c13990fd403aedf03c914d2f688a3f114b6298"
+        "version": "a63125b59318184d46a45bcf10589fd1394eab46"
     },
     "pbt": {
         "packages": {
