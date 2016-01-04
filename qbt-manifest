@@ -1134,7 +1134,7 @@
                 }
             }
         },
-        "version": "be50f853adea54a87a920041404cdcca06944614"
+        "version": "a3e53c0e58d957e51d5d47090563cc74ecb9d04e"
     },
     "misc1": {
         "packages": {
@@ -1353,7 +1353,7 @@
                 }
             }
         },
-        "version": "92670bd05c4f268a0f83e76531d042b2c73ac8aa"
+        "version": "d1bf22990a6b084ef7ef630af667825a30d2a330"
     },
     "pbt": {
         "packages": {
@@ -1537,7 +1537,7 @@
                 }
             }
         },
-        "version": "63c47f2abcaf1922e14d4371d69d1843265b7639"
+        "version": "eeccf15672b9109cc25d30eaa36305c64d03b9a7"
     },
     "wrapper_generator": {
         "packages": {
