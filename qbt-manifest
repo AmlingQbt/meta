@@ -2091,10 +2091,10 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
-            "qbt_fringe.link_checker.prerelease": {
+            "qbt_fringe.link_checker.release": {
                 "metadata": {
                     "archIndependent": true,
-                    "prefix": "prerelease",
+                    "prefix": "release",
                     "qbtEnv": {
                         "JDK": null
                     }
@@ -2103,19 +2103,9 @@
                     "qbt_fringe.link_checker.main": "Weak,HEAD",
                     "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
                 }
-            },
-            "qbt_fringe.link_checker.release": {
-                "metadata": {
-                    "archIndependent": true,
-                    "buildType": "COPY",
-                    "prefix": "release",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                }
             }
         },
-        "version": "d4bb82a3cad0a6797b01a6cc41ce7ff8131266e3"
+        "version": "d66fc8a08d34c7c5ce31ebd4854dae9c76d67650"
     },
     "linter": {
         "packages": {
