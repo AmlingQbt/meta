@@ -8,62 +8,6 @@
                     "prefix": "gradle"
                 }
             },
-            "mc.ant.contrib.ant.contrib": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/ant-contrib/ant-contrib",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.commons.httpclient.commons.httpclient": "Strong,HEAD",
-                    "mc.org.apache.ant.ant": "Strong,HEAD",
-                    "mc.org.apache.bcel.bcel": "Strong,HEAD"
-                },
-                "verifyDeps": {
-                    "mc.ant.contrib.ant.contrib.lc/link_check": 1
-                }
-            },
-            "mc.ant.contrib.ant.contrib.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/ant-contrib/ant-contrib",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.commons.httpclient.commons.httpclient": "Strong,HEAD",
-                    "mc.org.apache.ant.ant": "Strong,HEAD",
-                    "mc.org.apache.bcel.bcel": "Strong,HEAD",
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
-            "mc.cglib.cglib.nodep": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/cglib/cglib-nodep",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "verifyDeps": {
-                    "mc.cglib.cglib.nodep.lc/link_check": 1
-                }
-            },
-            "mc.cglib.cglib.nodep.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/cglib/cglib-nodep",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
             "mc.com.google.code.findbugs.jsr305": {
                 "metadata": {
                     "archIndependent": true,
@@ -96,9 +40,6 @@
                         "JDK": null
                     }
                 },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
-                },
                 "verifyDeps": {
                     "mc.com.google.code.gson.gson.lc/link_check": 1
                 }
@@ -112,61 +53,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
-            "mc.com.google.dexmaker.dexmaker": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/com.google.dexmaker/dexmaker",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.com.google.dexmaker.dexmaker.dx": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD"
-                },
-                "verifyDeps": {
-                    "mc.com.google.dexmaker.dexmaker.lc/link_check": 1
-                }
-            },
-            "mc.com.google.dexmaker.dexmaker.dx": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/com.google.dexmaker/dexmaker-dx",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "verifyDeps": {
-                    "mc.com.google.dexmaker.dexmaker.dx.lc/link_check": 1
-                }
-            },
-            "mc.com.google.dexmaker.dexmaker.dx.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/com.google.dexmaker/dexmaker-dx",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
-            "mc.com.google.dexmaker.dexmaker.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/com.google.dexmaker/dexmaker",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.com.google.dexmaker.dexmaker.dx": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -494,9 +380,6 @@
                         "JDK": null
                     }
                 },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
-                },
                 "verifyDeps": {
                     "mc.commons.codec.commons.codec.lc/link_check": 1
                 }
@@ -510,7 +393,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -521,9 +403,6 @@
                     "qbtEnv": {
                         "JDK": null
                     }
-                },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
                 },
                 "verifyDeps": {
                     "mc.commons.collections.commons.collections.lc/link_check": 1
@@ -538,7 +417,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -574,62 +452,6 @@
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
-            "mc.commons.io.commons.io": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/commons-io/commons-io",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
-                },
-                "verifyDeps": {
-                    "mc.commons.io.commons.io.lc/link_check": 1
-                }
-            },
-            "mc.commons.io.commons.io.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/commons-io/commons-io",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
-            "mc.commons.lang.commons.lang": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/commons-lang/commons-lang",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
-                },
-                "verifyDeps": {
-                    "mc.commons.lang.commons.lang.lc/link_check": 1
-                }
-            },
-            "mc.commons.lang.commons.lang.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/commons-lang/commons-lang",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
             "mc.commons.logging.commons.logging": {
                 "metadata": {
                     "archIndependent": true,
@@ -640,7 +462,6 @@
                 },
                 "normalDeps": {
                     "mc.javax.servlet.servlet.api": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.log4j.log4j": "Strong,HEAD",
                     "mc.logkit.logkit": "Strong,HEAD"
                 },
@@ -658,7 +479,6 @@
                 },
                 "normalDeps": {
                     "mc.javax.servlet.servlet.api": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.log4j.log4j": "Strong,HEAD",
                     "mc.logkit.logkit": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
@@ -733,30 +553,6 @@
                     "mc.org.apache.ant.ant": "Strong,HEAD",
                     "mc.oro.oro": "Strong,HEAD",
                     "mc.xml.apis.xml.apis": "Strong,HEAD",
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
-            "mc.hsqldb.hsqldb": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/hsqldb/hsqldb",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "verifyDeps": {
-                    "mc.hsqldb.hsqldb.lc/link_check": 1
-                }
-            },
-            "mc.hsqldb.hsqldb.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/hsqldb/hsqldb",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -841,8 +637,7 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.javax.activation.activation": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD"
+                    "mc.javax.activation.activation": "Strong,HEAD"
                 },
                 "verifyDeps": {
                     "mc.javax.mail.mail.lc/link_check": 1
@@ -858,7 +653,6 @@
                 },
                 "normalDeps": {
                     "mc.javax.activation.activation": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -983,8 +777,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.hsqldb.hsqldb": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.log4j.log4j": "Strong,HEAD",
                     "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD"
                 },
@@ -1001,8 +793,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.hsqldb.hsqldb": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.log4j.log4j": "Strong,HEAD",
                     "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
@@ -1018,9 +808,7 @@
                 },
                 "normalDeps": {
                     "mc.javax.mail.mail": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD",
-                    "mc.oro.oro": "Strong,HEAD"
+                    "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD"
                 },
                 "verifyDeps": {
                     "mc.log4j.log4j.lc/link_check": 1
@@ -1036,9 +824,7 @@
                 },
                 "normalDeps": {
                     "mc.javax.mail.mail": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.geronimo.specs.geronimo.jms_1.1_spec": "Strong,HEAD",
-                    "mc.oro.oro": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1127,7 +913,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant.launcher": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
                     "mc.xml.apis.xml.apis": "Strong,HEAD"
@@ -1144,9 +929,6 @@
                         "JDK": null
                     }
                 },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
-                },
                 "verifyDeps": {
                     "mc.org.apache.ant.ant.launcher.lc/link_check": 1
                 }
@@ -1160,7 +942,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1173,7 +954,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant.launcher": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
                     "mc.xml.apis.xml.apis": "Strong,HEAD",
@@ -1189,7 +969,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
                     "mc.xml.apis.xml.apis": "Strong,HEAD"
@@ -1207,40 +986,9 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
                     "mc.xml.apis.xml.apis": "Strong,HEAD",
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
-            "mc.org.apache.ant.ant.testutil": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/org.apache.ant/ant-testutil",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.apache.ant.ant": "Strong,HEAD"
-                },
-                "verifyDeps": {
-                    "mc.org.apache.ant.ant.testutil.lc/link_check": 1
-                }
-            },
-            "mc.org.apache.ant.ant.testutil.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/org.apache.ant/ant-testutil",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.apache.ant.ant": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1253,7 +1001,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant": "Strong,HEAD",
                     "mc.xalan.xalan": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
@@ -1272,7 +1019,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant": "Strong,HEAD",
                     "mc.xalan.xalan": "Strong,HEAD",
                     "mc.xerces.xercesImpl": "Strong,HEAD",
@@ -1316,11 +1062,6 @@
                         "JDK": null
                     }
                 },
-                "normalDeps": {
-                    "mc.commons.io.commons.io": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.easymock.easymock": "Strong,HEAD"
-                },
                 "verifyDeps": {
                     "mc.org.apache.commons.commons.lang3.lc/link_check": 1
                 }
@@ -1334,9 +1075,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.commons.io.commons.io": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.easymock.easymock": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1375,9 +1113,7 @@
                 "normalDeps": {
                     "mc.commons.codec.commons.codec": "Strong,HEAD",
                     "mc.commons.logging.commons.logging": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.apache.httpcomponents.httpcore": "Strong,HEAD",
-                    "mc.org.mockito.mockito.core": "Strong,HEAD"
+                    "mc.org.apache.httpcomponents.httpcore": "Strong,HEAD"
                 },
                 "verifyDeps": {
                     "mc.org.apache.httpcomponents.httpclient.lc/link_check": 1
@@ -1394,9 +1130,7 @@
                 "normalDeps": {
                     "mc.commons.codec.commons.codec": "Strong,HEAD",
                     "mc.commons.logging.commons.logging": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.httpcomponents.httpcore": "Strong,HEAD",
-                    "mc.org.mockito.mockito.core": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1407,11 +1141,6 @@
                     "qbtEnv": {
                         "JDK": null
                     }
-                },
-                "normalDeps": {
-                    "mc.commons.logging.commons.logging": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.mockito.mockito.core": "Strong,HEAD"
                 },
                 "verifyDeps": {
                     "mc.org.apache.httpcomponents.httpcore.lc/link_check": 1
@@ -1426,9 +1155,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.commons.logging.commons.logging": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.mockito.mockito.core": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1441,25 +1167,18 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.ant.contrib.ant.contrib": "Strong,HEAD",
                     "mc.com.jcraft.jsch": "Strong,HEAD",
                     "mc.com.jcraft.jsch.agentproxy": "Strong,HEAD",
                     "mc.com.jcraft.jsch.agentproxy.connector.factory": "Strong,HEAD",
                     "mc.com.jcraft.jsch.agentproxy.jsch": "Strong,HEAD",
                     "mc.commons.httpclient.commons.httpclient": "Strong,HEAD",
-                    "mc.commons.lang.commons.lang": "Strong,HEAD",
                     "mc.commons.vfs.commons.vfs": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant": "Strong,HEAD",
-                    "mc.org.apache.ant.ant.launcher": "Strong,HEAD",
                     "mc.org.apache.ant.ant.nodeps": "Strong,HEAD",
-                    "mc.org.apache.ant.ant.testutil": "Strong,HEAD",
                     "mc.org.apache.ant.ant.trax": "Strong,HEAD",
                     "mc.org.bouncycastle.bcpg.jdk14": "Strong,HEAD",
                     "mc.org.bouncycastle.bcprov.jdk14": "Strong,HEAD",
-                    "mc.oro.oro": "Strong,HEAD",
-                    "mc.xerces.xercesImpl": "Strong,HEAD",
-                    "mc.xerces.xmlParserAPIs": "Strong,HEAD"
+                    "mc.oro.oro": "Strong,HEAD"
                 },
                 "verifyDeps": {
                     "mc.org.apache.ivy.ivy.lc/link_check": 1
@@ -1474,25 +1193,18 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.ant.contrib.ant.contrib": "Strong,HEAD",
                     "mc.com.jcraft.jsch": "Strong,HEAD",
                     "mc.com.jcraft.jsch.agentproxy": "Strong,HEAD",
                     "mc.com.jcraft.jsch.agentproxy.connector.factory": "Strong,HEAD",
                     "mc.com.jcraft.jsch.agentproxy.jsch": "Strong,HEAD",
                     "mc.commons.httpclient.commons.httpclient": "Strong,HEAD",
-                    "mc.commons.lang.commons.lang": "Strong,HEAD",
                     "mc.commons.vfs.commons.vfs": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.apache.ant.ant": "Strong,HEAD",
-                    "mc.org.apache.ant.ant.launcher": "Strong,HEAD",
                     "mc.org.apache.ant.ant.nodeps": "Strong,HEAD",
-                    "mc.org.apache.ant.ant.testutil": "Strong,HEAD",
                     "mc.org.apache.ant.ant.trax": "Strong,HEAD",
                     "mc.org.bouncycastle.bcpg.jdk14": "Strong,HEAD",
                     "mc.org.bouncycastle.bcprov.jdk14": "Strong,HEAD",
                     "mc.oro.oro": "Strong,HEAD",
-                    "mc.xerces.xercesImpl": "Strong,HEAD",
-                    "mc.xerces.xmlParserAPIs": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1505,7 +1217,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.codehaus.plexus.plexus.utils": "Strong,HEAD"
                 },
                 "verifyDeps": {
@@ -1521,7 +1232,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.org.codehaus.plexus.plexus.utils": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
@@ -1634,9 +1344,6 @@
                         "JDK": null
                     }
                 },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
-                },
                 "verifyDeps": {
                     "mc.org.commonjava.googlecode.markdown4j.markdown4j.lc/link_check": 1
                 }
@@ -1650,41 +1357,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
-            "mc.org.easymock.easymock": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/org.easymock/easymock",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.cglib.cglib.nodep": "Strong,HEAD",
-                    "mc.com.google.dexmaker.dexmaker": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.objenesis.objenesis": "Strong,HEAD"
-                },
-                "verifyDeps": {
-                    "mc.org.easymock.easymock.lc/link_check": 1
-                }
-            },
-            "mc.org.easymock.easymock.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/org.easymock/easymock",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "mc.cglib.cglib.nodep": "Strong,HEAD",
-                    "mc.com.google.dexmaker.dexmaker": "Strong,HEAD",
-                    "mc.junit.junit": "Strong,HEAD",
-                    "mc.org.objenesis.objenesis": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1752,9 +1424,6 @@
                         "JDK": null
                     }
                 },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
-                },
                 "verifyDeps": {
                     "mc.org.objenesis.objenesis.lc/link_check": 1
                 }
@@ -1768,7 +1437,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1804,9 +1472,6 @@
                         "JDK": null
                     }
                 },
-                "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD"
-                },
                 "verifyDeps": {
                     "mc.org.slf4j.slf4j.api.lc/link_check": 1
                 }
@@ -1820,7 +1485,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1833,7 +1497,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.log4j.log4j": "Strong,HEAD",
                     "mc.org.slf4j.slf4j.api": "Strong,HEAD"
                 },
@@ -1850,7 +1513,6 @@
                     }
                 },
                 "normalDeps": {
-                    "mc.junit.junit": "Strong,HEAD",
                     "mc.log4j.log4j": "Strong,HEAD",
                     "mc.org.slf4j.slf4j.api": "Strong,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
@@ -1966,30 +1628,6 @@
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
-            "mc.xerces.xmlParserAPIs": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/xerces/xmlParserAPIs",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "verifyDeps": {
-                    "mc.xerces.xmlParserAPIs.lc/link_check": 1
-                }
-            },
-            "mc.xerces.xmlParserAPIs.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/xerces/xmlParserAPIs",
-                    "qbtEnv": {
-                        "JDK": null
-                    }
-                },
-                "normalDeps": {
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
             "mc.xml.apis.xml.apis": {
                 "metadata": {
                     "archIndependent": true,
@@ -2039,7 +1677,7 @@
                 }
             }
         },
-        "version": "9cf30e1215895d5937a66c344b73e26c2e9e6f24"
+        "version": "0f7e99af7f079fe7352defa4f976d81bdb11f244"
     },
     "eclipse_gen": {
         "packages": {
@@ -2406,7 +2044,7 @@
                 }
             }
         },
-        "version": "8f91a44e7f1f993b5fbe8b7d3220b9167e42a208"
+        "version": "8bef1b2601d3d2b9f03c327f07e3ad41d6326c8c"
     },
     "pbt": {
         "packages": {
