@@ -13,7 +13,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.google.code.findbugs/jsr305",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -25,7 +25,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.google.code.findbugs/jsr305",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -37,7 +37,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.google.code.gson/gson",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -49,7 +49,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.google.code.gson/gson",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -61,7 +61,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.google.guava/guava",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -77,7 +77,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.google.guava/guava",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -91,7 +91,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -106,7 +106,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -118,7 +118,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.connector-factory",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -137,7 +137,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.connector-factory",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -154,7 +154,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.core",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -166,7 +166,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.core",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -178,7 +178,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.jsch",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -194,7 +194,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.jsch",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -208,7 +208,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -220,7 +220,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.pageant",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -237,7 +237,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.pageant",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -252,7 +252,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.sshagent",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -267,7 +267,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.sshagent",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -280,7 +280,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.usocket-jna",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -297,7 +297,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.usocket-jna",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -312,7 +312,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.usocket-nc",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -327,7 +327,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch.agentproxy.usocket-nc",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -340,7 +340,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jsch",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -353,7 +353,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jzlib",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -365,7 +365,7 @@
                     "archIndependent": true,
                     "prefix": "mc/com.jcraft/jzlib",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -377,7 +377,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-codec/commons-codec",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -389,7 +389,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-codec/commons-codec",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -401,7 +401,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-collections/commons-collections",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -413,7 +413,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-collections/commons-collections",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -425,7 +425,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-httpclient/commons-httpclient",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -442,7 +442,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-httpclient/commons-httpclient",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -457,7 +457,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-logging/commons-logging",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -474,7 +474,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-logging/commons-logging",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -489,7 +489,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-net/commons-net",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -504,7 +504,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-net/commons-net",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -517,7 +517,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-vfs/commons-vfs",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -540,7 +540,7 @@
                     "archIndependent": true,
                     "prefix": "mc/commons-vfs/commons-vfs",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -561,7 +561,7 @@
                     "archIndependent": true,
                     "prefix": "mc/jakarta-regexp/jakarta-regexp",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -573,7 +573,7 @@
                     "archIndependent": true,
                     "prefix": "mc/jakarta-regexp/jakarta-regexp",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -585,7 +585,7 @@
                     "archIndependent": true,
                     "prefix": "mc/javax.activation/activation",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -597,7 +597,7 @@
                     "archIndependent": true,
                     "prefix": "mc/javax.activation/activation",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -609,7 +609,7 @@
                     "archIndependent": true,
                     "prefix": "mc/javax.inject/javax.inject",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -621,7 +621,7 @@
                     "archIndependent": true,
                     "prefix": "mc/javax.inject/javax.inject",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -633,7 +633,7 @@
                     "archIndependent": true,
                     "prefix": "mc/javax.mail/mail",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -648,7 +648,7 @@
                     "archIndependent": true,
                     "prefix": "mc/javax.mail/mail",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -661,7 +661,7 @@
                     "archIndependent": true,
                     "prefix": "mc/javax.servlet/servlet-api",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -673,7 +673,7 @@
                     "archIndependent": true,
                     "prefix": "mc/javax.servlet/servlet-api",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -685,7 +685,7 @@
                     "archIndependent": true,
                     "prefix": "mc/jaxen/jaxen",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -697,7 +697,7 @@
                     "archIndependent": true,
                     "prefix": "mc/jaxen/jaxen",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -709,7 +709,7 @@
                     "archIndependent": true,
                     "prefix": "mc/jdom/jdom",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -728,7 +728,7 @@
                     "archIndependent": true,
                     "prefix": "mc/jdom/jdom",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -745,7 +745,7 @@
                     "archIndependent": true,
                     "prefix": "mc/junit/junit",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -760,7 +760,7 @@
                     "archIndependent": true,
                     "prefix": "mc/junit/junit",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -773,7 +773,7 @@
                     "archIndependent": true,
                     "prefix": "mc/log4j/apache-log4j-extras",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -789,7 +789,7 @@
                     "archIndependent": true,
                     "prefix": "mc/log4j/apache-log4j-extras",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -803,7 +803,7 @@
                     "archIndependent": true,
                     "prefix": "mc/log4j/log4j",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -819,7 +819,7 @@
                     "archIndependent": true,
                     "prefix": "mc/log4j/log4j",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -833,7 +833,7 @@
                     "archIndependent": true,
                     "prefix": "mc/logkit/logkit",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -845,7 +845,7 @@
                     "archIndependent": true,
                     "prefix": "mc/logkit/logkit",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -857,7 +857,7 @@
                     "archIndependent": true,
                     "prefix": "mc/net.java.dev.jna/jna",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -869,7 +869,7 @@
                     "archIndependent": true,
                     "prefix": "mc/net.java.dev.jna/jna",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -881,7 +881,7 @@
                     "archIndependent": true,
                     "prefix": "mc/net.java.dev.jna/platform",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -896,7 +896,7 @@
                     "archIndependent": true,
                     "prefix": "mc/net.java.dev.jna/platform",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -909,7 +909,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ant/ant",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -926,7 +926,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ant/ant-launcher",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -938,7 +938,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ant/ant-launcher",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -950,7 +950,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ant/ant",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -965,7 +965,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ant/ant-nodeps",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -982,7 +982,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ant/ant-nodeps",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -997,7 +997,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ant/ant-trax",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1015,7 +1015,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ant/ant-trax",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1031,7 +1031,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.bcel/bcel",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1046,7 +1046,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.bcel/bcel",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1059,7 +1059,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.commons/commons-lang3",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1071,7 +1071,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.commons/commons-lang3",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1083,7 +1083,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.geronimo.specs/geronimo-jms_1.1_spec",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1095,7 +1095,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.geronimo.specs/geronimo-jms_1.1_spec",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1107,7 +1107,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.httpcomponents/httpclient",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1124,7 +1124,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.httpcomponents/httpclient",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1139,7 +1139,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.httpcomponents/httpcore",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1151,7 +1151,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.httpcomponents/httpcore",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1163,7 +1163,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ivy/ivy",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1189,7 +1189,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.ivy/ivy",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1213,7 +1213,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.maven/maven-artifact",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1228,7 +1228,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.apache.maven/maven-artifact",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1241,7 +1241,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.bouncycastle/bcpg-jdk14",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1256,7 +1256,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.bouncycastle/bcpg-jdk14",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1269,7 +1269,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.bouncycastle/bcprov-jdk14",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1281,7 +1281,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.bouncycastle/bcprov-jdk14",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1293,7 +1293,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.codehaus.groovy/groovy-all",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1305,7 +1305,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.codehaus.groovy/groovy-all",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1317,7 +1317,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.codehaus.plexus/plexus-utils",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1329,7 +1329,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.codehaus.plexus/plexus-utils",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1341,7 +1341,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.commonjava.googlecode.markdown4j/markdown4j",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1353,7 +1353,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.commonjava.googlecode.markdown4j/markdown4j",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1365,7 +1365,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.hamcrest/hamcrest-core",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1377,7 +1377,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.hamcrest/hamcrest-core",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1389,7 +1389,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.mockito/mockito-core",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1406,7 +1406,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.mockito/mockito-core",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1421,7 +1421,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.objenesis/objenesis",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1433,7 +1433,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.objenesis/objenesis",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1445,7 +1445,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.ow2.asm/asm-all",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1457,7 +1457,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.ow2.asm/asm-all",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1469,7 +1469,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.slf4j/slf4j-api",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1481,7 +1481,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.slf4j/slf4j-api",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1493,7 +1493,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.slf4j/slf4j-log4j12",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1509,7 +1509,7 @@
                     "archIndependent": true,
                     "prefix": "mc/org.slf4j/slf4j-log4j12",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1523,7 +1523,7 @@
                     "archIndependent": true,
                     "prefix": "mc/oro/oro",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1535,7 +1535,7 @@
                     "archIndependent": true,
                     "prefix": "mc/oro/oro",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1547,7 +1547,7 @@
                     "archIndependent": true,
                     "prefix": "mc/saxpath/saxpath",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1559,7 +1559,7 @@
                     "archIndependent": true,
                     "prefix": "mc/saxpath/saxpath",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1571,7 +1571,7 @@
                     "archIndependent": true,
                     "prefix": "mc/xalan/xalan",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1588,7 +1588,7 @@
                     "archIndependent": true,
                     "prefix": "mc/xalan/xalan",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1603,7 +1603,7 @@
                     "archIndependent": true,
                     "prefix": "mc/xerces/xercesImpl",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1619,7 +1619,7 @@
                     "archIndependent": true,
                     "prefix": "mc/xerces/xercesImpl",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1633,7 +1633,7 @@
                     "archIndependent": true,
                     "prefix": "mc/xml-apis/xml-apis",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1645,7 +1645,7 @@
                     "archIndependent": true,
                     "prefix": "mc/xml-apis/xml-apis",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1657,7 +1657,7 @@
                     "archIndependent": true,
                     "prefix": "mc/xml-resolver/xml-resolver",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "verifyDeps": {
@@ -1669,7 +1669,7 @@
                     "archIndependent": true,
                     "prefix": "mc/xml-resolver/xml-resolver",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1677,7 +1677,7 @@
                 }
             }
         },
-        "version": "0f7e99af7f079fe7352defa4f976d81bdb11f244"
+        "version": "a4ac9df6fde2ca3ddc12c7c35578897a9723200e"
     },
     "eclipse_gen": {
         "packages": {
@@ -1686,7 +1686,7 @@
                     "archIndependent": true,
                     "prefix": "simple/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1701,7 +1701,7 @@
                     "archIndependent": true,
                     "prefix": "simple/release",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1710,7 +1710,7 @@
                 }
             }
         },
-        "version": "81de05c287454cbcfb2ed0cf60a2d2fd3c917161"
+        "version": "4dd9567973843abfc5deabb3cb009211286c01db"
     },
     "link_checker": {
         "packages": {
@@ -1719,7 +1719,7 @@
                     "archIndependent": true,
                     "prefix": "main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1734,7 +1734,7 @@
                     "archIndependent": true,
                     "prefix": "release",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1743,7 +1743,7 @@
                 }
             }
         },
-        "version": "d66fc8a08d34c7c5ce31ebd4854dae9c76d67650"
+        "version": "c8d7a6dd08c5ccf1db94774732510346004ea37b"
     },
     "linter": {
         "packages": {
@@ -1752,7 +1752,7 @@
                     "archIndependent": true,
                     "prefix": "main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1768,7 +1768,7 @@
                     "archIndependent": true,
                     "prefix": ".main.lint",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1781,7 +1781,7 @@
                     "archIndependent": true,
                     "prefix": "release",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1790,7 +1790,7 @@
                 }
             }
         },
-        "version": "3488fd0d74d3384a9a6403d7506a4dbb2f202a37"
+        "version": "6dcdefb5631c138993ef7760712fde178e21b9dd"
     },
     "meta_tools": {
         "packages": {
@@ -1799,7 +1799,7 @@
                     "archIndependent": true,
                     "prefix": "main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1813,7 +1813,7 @@
                     "archIndependent": true,
                     "prefix": "release",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1822,7 +1822,7 @@
                 }
             }
         },
-        "version": "9f0d88274c21d9a9b4fcedefac68b03810c345fb"
+        "version": "8fc5ad11606b47d6bb093875f430444b82f86931"
     },
     "misc1": {
         "packages": {
@@ -1831,7 +1831,7 @@
                     "archIndependent": true,
                     "prefix": "commons.algo/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1848,7 +1848,7 @@
                     "archIndependent": true,
                     "prefix": "commons.algo/test",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1863,7 +1863,7 @@
                     "archIndependent": true,
                     "prefix": "commons.concurrent/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1881,7 +1881,7 @@
                     "archIndependent": true,
                     "prefix": "commons.concurrent/test",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1896,7 +1896,7 @@
                     "archIndependent": true,
                     "prefix": "commons.core/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1914,7 +1914,7 @@
                     "archIndependent": true,
                     "prefix": "commons.core/.main.lint",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1927,7 +1927,7 @@
                     "archIndependent": true,
                     "prefix": "commons.core/test",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1942,7 +1942,7 @@
                     "archIndependent": true,
                     "prefix": "commons.options/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1960,7 +1960,7 @@
                     "archIndependent": true,
                     "prefix": "commons.options/.main.lint",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1973,7 +1973,7 @@
                     "archIndependent": true,
                     "prefix": "commons.options/test",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -1987,7 +1987,7 @@
                     "archIndependent": true,
                     "prefix": "commons.ph/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2002,7 +2002,7 @@
                     "archIndependent": true,
                     "prefix": "third_party_tools/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2021,7 +2021,7 @@
                     "archIndependent": true,
                     "prefix": "third_party_tools/release",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2034,7 +2034,7 @@
                     "archIndependent": true,
                     "prefix": "third_party_tools/test",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2044,7 +2044,7 @@
                 }
             }
         },
-        "version": "64fb7a2e1d3c5ac16ebf36d632091e77c05ac4ec"
+        "version": "75b0e32801fe81bf4554f8702e61f006e63bcf92"
     },
     "pbt": {
         "packages": {
@@ -2082,7 +2082,7 @@
                     "archIndependent": true,
                     "prefix": "app/cmd",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2095,7 +2095,7 @@
                     "archIndependent": true,
                     "prefix": "app/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2118,7 +2118,7 @@
                     "archIndependent": true,
                     "prefix": "app/test",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2132,7 +2132,7 @@
                     "archIndependent": true,
                     "prefix": "bin/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2151,7 +2151,7 @@
                     "archIndependent": true,
                     "prefix": "bin/test",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2165,7 +2165,7 @@
                     "archIndependent": true,
                     "prefix": "docs",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2178,7 +2178,7 @@
                     "archIndependent": true,
                     "prefix": "lib/main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2195,7 +2195,7 @@
                     "archIndependent": true,
                     "prefix": "lib/test",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2220,7 +2220,7 @@
                     "archIndependent": true,
                     "prefix": "release",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2229,7 +2229,7 @@
                 }
             }
         },
-        "version": "fca0fa369cf36c5f1836e9f6d62857f607de2a54"
+        "version": "f10e031b6f8c07ce84843c1100e1f3d834cf2816"
     },
     "wrapper_generator": {
         "packages": {
@@ -2238,7 +2238,7 @@
                     "archIndependent": true,
                     "prefix": "main",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2252,7 +2252,7 @@
                     "archIndependent": true,
                     "prefix": "prerelease",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
@@ -2266,11 +2266,11 @@
                     "buildType": "COPY",
                     "prefix": "release",
                     "qbtEnv": {
-                        "JDK": null
+                        "JDK": "1_8"
                     }
                 }
             }
         },
-        "version": "1ee173c1322b1fd7f89868d45cd31936cd3fea72"
+        "version": "ee34ba712732ebfdbdeddd5d77efe01eac039166"
     }
 }
