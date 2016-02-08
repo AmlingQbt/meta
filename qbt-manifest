@@ -2160,19 +2160,6 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
-            "qbt.docs": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "docs",
-                    "qbtEnv": {
-                        "JDK": "1_8"
-                    }
-                },
-                "normalDeps": {
-                    "mc.org.commonjava.googlecode.markdown4j.markdown4j": "Strong,HEAD",
-                    "qbt_fringe.linter.release": "Weak,HEAD"
-                }
-            },
             "qbt.lib.main": {
                 "metadata": {
                     "archIndependent": true,
@@ -2205,16 +2192,6 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
-            "qbt.qbtbuildtool.com": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "qbtbuildtool.com"
-                },
-                "normalDeps": {
-                    "meta_tools.release": "Weak,HEAD",
-                    "qbt.docs": "Strong,HEAD"
-                }
-            },
             "qbt.release": {
                 "metadata": {
                     "archIndependent": true,
@@ -2229,7 +2206,7 @@
                 }
             }
         },
-        "version": "f10e031b6f8c07ce84843c1100e1f3d834cf2816"
+        "version": "a2a49a1e485b42900591847326a85a2a48573bfa"
     },
     "wrapper_generator": {
         "packages": {
