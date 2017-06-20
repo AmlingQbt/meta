@@ -1901,6 +1901,7 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
+                    "mc.com.google.code.gson.gson": "Strong,HEAD",
                     "mc.com.google.guava.guava": "Strong,HEAD",
                     "mc.org.apache.commons.commons.lang3": "Strong,HEAD"
                 },
@@ -2044,7 +2045,7 @@
                 }
             }
         },
-        "version": "058b7e3b10a9762806378ed9e6f5e9547e2a27e1"
+        "version": "ec00139ca054caa83f2151be3b385060176a1889"
     },
     "pbt": {
         "packages": {
@@ -2100,7 +2101,6 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "mc.com.google.code.gson.gson": "Strong,HEAD",
                     "mc.org.apache.httpcomponents.httpclient": "Strong,HEAD",
                     "mc.org.codehaus.groovy.groovy.all": "Strong,HEAD",
                     "misc1.commons.algo.main": "Strong,HEAD",
@@ -2206,7 +2206,7 @@
                 }
             }
         },
-        "version": "6b09307ffd7af1eb7810d595108de34e502e512c"
+        "version": "7e635c85baf0bfdf6751a13a87b24c52d3637df3"
     },
     "wrapper_generator": {
         "packages": {
