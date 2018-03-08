@@ -2220,7 +2220,6 @@
                 },
                 "normalDeps": {
                     "3p.gradle": "Weak,HEAD",
-                    "mc.com.google.guava.guava": "Strong,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
@@ -2248,6 +2247,6 @@
                 }
             }
         },
-        "version": "ee34ba712732ebfdbdeddd5d77efe01eac039166"
+        "version": "d906dd6db0546954e3b8dec09574189a5680e9de"
     }
 }
