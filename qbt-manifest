@@ -2219,8 +2219,23 @@
                     }
                 },
                 "normalDeps": {
-                    "3p.gradle": "Weak,HEAD",
-                    "qbt_fringe.linter.release": "Weak,HEAD"
+                    "3p.gradle": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "qbt_fringe.wrapper_generator.main.lint/lint": 1
+                }
+            },
+            "qbt_fringe.wrapper_generator.main.lint": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": ".main.lint",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "qbt_fringe.linter.release": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.main": "Weak,HEAD"
                 }
             },
             "qbt_fringe.wrapper_generator.prerelease": {
@@ -2247,6 +2262,6 @@
                 }
             }
         },
-        "version": "d906dd6db0546954e3b8dec09574189a5680e9de"
+        "version": "60002ca5e6364066de1d0c0554a7bbad7e12f2a6"
     }
 }
