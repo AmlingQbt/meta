@@ -2238,30 +2238,19 @@
                     "qbt_fringe.wrapper_generator.main": "Weak,HEAD"
                 }
             },
-            "qbt_fringe.wrapper_generator.prerelease": {
+            "qbt_fringe.wrapper_generator.release": {
                 "metadata": {
                     "archIndependent": true,
-                    "prefix": "prerelease",
+                    "prefix": "release",
                     "qbtEnv": {
                         "JDK": "1_8"
                     }
                 },
                 "normalDeps": {
-                    "qbt_fringe.wrapper_generator.main": "Weak,HEAD",
-                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
-                }
-            },
-            "qbt_fringe.wrapper_generator.release": {
-                "metadata": {
-                    "archIndependent": true,
-                    "buildType": "COPY",
-                    "prefix": "release",
-                    "qbtEnv": {
-                        "JDK": "1_8"
-                    }
+                    "qbt_fringe.wrapper_generator.main": "Weak,HEAD"
                 }
             }
         },
-        "version": "60002ca5e6364066de1d0c0554a7bbad7e12f2a6"
+        "version": "e7ab54d2fad94b1125574651086aa1cb3d505c5a"
     }
 }
