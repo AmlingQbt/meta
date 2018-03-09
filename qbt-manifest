@@ -1840,7 +1840,21 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 },
                 "verifyDeps": {
+                    "misc1.commons.algo.main.lint/lint": 1,
                     "misc1.commons.algo.test/test": 1
+                }
+            },
+            "misc1.commons.algo.main.lint": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.algo/.main.lint",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "misc1.commons.algo.main": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.commons.algo.test": {
@@ -1996,6 +2010,22 @@
                     "misc1.commons.core.main": "Strong,HEAD",
                     "misc1.java_build_process": "Weak,HEAD",
                     "qbt_fringe.linter.release": "Weak,HEAD"
+                },
+                "verifyDeps": {
+                    "misc1.commons.ph.main.lint/lint": 1
+                }
+            },
+            "misc1.commons.ph.main.lint": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "commons.ph/.main.lint",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "misc1.commons.ph.main": "Weak,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
             "misc1.java_build_process": {
@@ -2055,7 +2085,7 @@
                 }
             }
         },
-        "version": "0ea46493f00d0df2f4d823f8fd1758597a55b423"
+        "version": "94d98dcc2f1e66b4f3132ea516eafe2ca07bc9bb"
     },
     "pbt": {
         "packages": {
