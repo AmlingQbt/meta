@@ -1998,6 +1998,16 @@
                     "qbt_fringe.linter.release": "Weak,HEAD"
                 }
             },
+            "misc1.java_build_process": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "java_build_process"
+                },
+                "normalDeps": {
+                    "3p.gradle": "RuntimeWeak,HEAD"
+                }
+            },
             "misc1.third_party_tools.main": {
                 "metadata": {
                     "archIndependent": true,
@@ -2045,7 +2055,7 @@
                 }
             }
         },
-        "version": "b0c01aad4c15484da6c0d2ce653988681e0baabd"
+        "version": "32c1ebc9b3b135f3d13fb5ddcc2f0a715b2cdf7a"
     },
     "pbt": {
         "packages": {
