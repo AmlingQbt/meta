@@ -54,6 +54,29 @@
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
+            "mc.com.google.errorprone.error_prone_annotations": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/com.google.errorprone/error_prone_annotations/src"
+                },
+                "verifyDeps": {
+                    "mc.com.google.errorprone.error_prone_annotations.lc/link_check": 1
+                }
+            },
+            "mc.com.google.errorprone.error_prone_annotations.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/com.google.errorprone/error_prone_annotations/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.com.google.errorprone.error_prone_annotations": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
             "mc.com.google.guava.guava": {
                 "metadata": {
                     "archIndependent": true,
@@ -62,7 +85,10 @@
                 },
                 "normalDeps": {
                     "mc.com.google.code.findbugs.jsr305": "Strong,HEAD",
-                    "mc.javax.inject.javax.inject": "Strong,HEAD"
+                    "mc.com.google.errorprone.error_prone_annotations": "Strong,HEAD",
+                    "mc.com.google.j2objc.j2objc.annotations": "Strong,HEAD",
+                    "mc.org.checkerframework.checker.compat.qual": "Strong,HEAD",
+                    "mc.org.codehaus.mojo.animal.sniffer.annotations": "Strong,HEAD"
                 },
                 "verifyDeps": {
                     "mc.com.google.guava.guava.lc/link_check": 1
@@ -78,6 +104,29 @@
                 },
                 "normalDeps": {
                     "mc.com.google.guava.guava": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.com.google.j2objc.j2objc.annotations": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/com.google.j2objc/j2objc-annotations/src"
+                },
+                "verifyDeps": {
+                    "mc.com.google.j2objc.j2objc.annotations.lc/link_check": 1
+                }
+            },
+            "mc.com.google.j2objc.j2objc.annotations.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/com.google.j2objc/j2objc-annotations/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.com.google.j2objc.j2objc.annotations": "Weak,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -503,29 +552,6 @@
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
-            "mc.jakarta.regexp.jakarta.regexp": {
-                "metadata": {
-                    "archIndependent": true,
-                    "buildType": "COPY",
-                    "prefix": "mc/packages/jakarta-regexp/jakarta-regexp/src"
-                },
-                "verifyDeps": {
-                    "mc.jakarta.regexp.jakarta.regexp.lc/link_check": 1
-                }
-            },
-            "mc.jakarta.regexp.jakarta.regexp.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/packages/jakarta-regexp/jakarta-regexp/lc",
-                    "qbtEnv": {
-                        "JDK": "1_8"
-                    }
-                },
-                "normalDeps": {
-                    "mc.jakarta.regexp.jakarta.regexp": "Weak,HEAD",
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
             "mc.javax.activation.activation": {
                 "metadata": {
                     "archIndependent": true,
@@ -546,29 +572,6 @@
                 },
                 "normalDeps": {
                     "mc.javax.activation.activation": "Weak,HEAD",
-                    "qbt_fringe.link_checker.release": "Weak,HEAD"
-                }
-            },
-            "mc.javax.inject.javax.inject": {
-                "metadata": {
-                    "archIndependent": true,
-                    "buildType": "COPY",
-                    "prefix": "mc/packages/javax.inject/javax.inject/src"
-                },
-                "verifyDeps": {
-                    "mc.javax.inject.javax.inject.lc/link_check": 1
-                }
-            },
-            "mc.javax.inject.javax.inject.lc": {
-                "metadata": {
-                    "archIndependent": true,
-                    "prefix": "mc/packages/javax.inject/javax.inject/lc",
-                    "qbtEnv": {
-                        "JDK": "1_8"
-                    }
-                },
-                "normalDeps": {
-                    "mc.javax.inject.javax.inject": "Weak,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -940,9 +943,6 @@
                     "buildType": "COPY",
                     "prefix": "mc/packages/org.apache.bcel/bcel/src"
                 },
-                "normalDeps": {
-                    "mc.jakarta.regexp.jakarta.regexp": "Strong,HEAD"
-                },
                 "verifyDeps": {
                     "mc.org.apache.bcel.bcel.lc/link_check": 1
                 }
@@ -1101,6 +1101,7 @@
                     "prefix": "mc/packages/org.apache.maven/maven-artifact/src"
                 },
                 "normalDeps": {
+                    "mc.org.apache.commons.commons.lang3": "Strong,HEAD",
                     "mc.org.codehaus.plexus.plexus.utils": "Strong,HEAD"
                 },
                 "verifyDeps": {
@@ -1169,6 +1170,29 @@
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
+            "mc.org.checkerframework.checker.compat.qual": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/org.checkerframework/checker-compat-qual/src"
+                },
+                "verifyDeps": {
+                    "mc.org.checkerframework.checker.compat.qual.lc/link_check": 1
+                }
+            },
+            "mc.org.checkerframework.checker.compat.qual.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/org.checkerframework/checker-compat-qual/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.checkerframework.checker.compat.qual": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
             "mc.org.codehaus.groovy.groovy.all": {
                 "metadata": {
                     "archIndependent": true,
@@ -1189,6 +1213,29 @@
                 },
                 "normalDeps": {
                     "mc.org.codehaus.groovy.groovy.all": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.codehaus.mojo.animal.sniffer.annotations": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/org.codehaus.mojo/animal-sniffer-annotations/src"
+                },
+                "verifyDeps": {
+                    "mc.org.codehaus.mojo.animal.sniffer.annotations.lc/link_check": 1
+                }
+            },
+            "mc.org.codehaus.mojo.animal.sniffer.annotations.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/org.codehaus.mojo/animal-sniffer-annotations/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.codehaus.mojo.animal.sniffer.annotations": "Weak,HEAD",
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
@@ -1505,7 +1552,7 @@
                 }
             }
         },
-        "version": "69f1747444b945b9a47c32e5257ff0614f97158c"
+        "version": "df2c04e74019fc4cfd1b721589d719a65e135fb2"
     },
     "eclipse_gen": {
         "packages": {
@@ -1914,7 +1961,7 @@
                 }
             }
         },
-        "version": "7d69262d43effe3c13d7b9de1924e3b15f7280cd"
+        "version": "2c60d4e35fb1266d075fe44c54eb80cbda661677"
     },
     "pbt": {
         "packages": {
