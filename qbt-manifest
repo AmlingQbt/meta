@@ -2135,6 +2135,8 @@
                     }
                 },
                 "normalDeps": {
+                    "mc.com.google.code.gson.gson": "Strong,HEAD",
+                    "mc.com.google.guava.guava": "Strong,HEAD",
                     "misc1.java_build_process": "Weak,HEAD"
                 },
                 "verifyDeps": {
@@ -2167,6 +2169,6 @@
                 }
             }
         },
-        "version": "1134f9e3fa5e8914503d60e4d32e6f04dce82042"
+        "version": "1b9181351601363dc22b7c4f22c4d4ceda48bbf5"
     }
 }
