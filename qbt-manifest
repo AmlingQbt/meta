@@ -2101,6 +2101,37 @@
                     "3p.gradle": "RuntimeWeak,HEAD"
                 }
             },
+            "misc1.slack_irc_bridge.main": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "slack_irc_bridge/main",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.com.google.code.gson.gson": "Strong,HEAD",
+                    "mc.org.apache.httpcomponents.httpclient": "Strong,HEAD",
+                    "mc.org.eclipse.jetty.websocket.websocket.client": "Strong,HEAD",
+                    "misc1.commons.concurrent.main": "Strong,HEAD",
+                    "misc1.java_build_process": "Weak,HEAD",
+                    "qbt.bin.main": "Strong,HEAD",
+                    "qbt_fringe.linter.release": "Weak,HEAD"
+                }
+            },
+            "misc1.slack_irc_bridge.release": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "slack_irc_bridge/release",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "misc1.slack_irc_bridge.main": "Weak,HEAD",
+                    "qbt_fringe.wrapper_generator.release": "Weak,HEAD"
+                }
+            },
             "misc1.third_party_tools.main": {
                 "metadata": {
                     "archIndependent": true,
