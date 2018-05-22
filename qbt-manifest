@@ -1285,6 +1285,192 @@
                     "qbt_fringe.link_checker.release": "Weak,HEAD"
                 }
             },
+            "mc.org.eclipse.jetty.jetty.client": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/org.eclipse.jetty/jetty-client/src"
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.jetty.http": "Strong,HEAD",
+                    "mc.org.eclipse.jetty.jetty.io": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "mc.org.eclipse.jetty.jetty.client.lc/link_check": 1
+                }
+            },
+            "mc.org.eclipse.jetty.jetty.client.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/org.eclipse.jetty/jetty-client/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.jetty.client": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.eclipse.jetty.jetty.http": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/org.eclipse.jetty/jetty-http/src"
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.jetty.io": "Strong,HEAD",
+                    "mc.org.eclipse.jetty.jetty.util": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "mc.org.eclipse.jetty.jetty.http.lc/link_check": 1
+                }
+            },
+            "mc.org.eclipse.jetty.jetty.http.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/org.eclipse.jetty/jetty-http/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.jetty.http": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.eclipse.jetty.jetty.io": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/org.eclipse.jetty/jetty-io/src"
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.jetty.util": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "mc.org.eclipse.jetty.jetty.io.lc/link_check": 1
+                }
+            },
+            "mc.org.eclipse.jetty.jetty.io.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/org.eclipse.jetty/jetty-io/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.jetty.io": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.eclipse.jetty.jetty.util": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/org.eclipse.jetty/jetty-util/src"
+                },
+                "normalDeps": {
+                    "mc.org.slf4j.slf4j.api": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "mc.org.eclipse.jetty.jetty.util.lc/link_check": 1
+                }
+            },
+            "mc.org.eclipse.jetty.jetty.util.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/org.eclipse.jetty/jetty-util/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.jetty.util": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.eclipse.jetty.websocket.websocket.api": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/org.eclipse.jetty.websocket/websocket-api/src"
+                },
+                "verifyDeps": {
+                    "mc.org.eclipse.jetty.websocket.websocket.api.lc/link_check": 1
+                }
+            },
+            "mc.org.eclipse.jetty.websocket.websocket.api.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/org.eclipse.jetty.websocket/websocket-api/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.websocket.websocket.api": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.eclipse.jetty.websocket.websocket.client": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/org.eclipse.jetty.websocket/websocket-client/src"
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.jetty.client": "Strong,HEAD",
+                    "mc.org.eclipse.jetty.jetty.io": "Strong,HEAD",
+                    "mc.org.eclipse.jetty.jetty.util": "Strong,HEAD",
+                    "mc.org.eclipse.jetty.websocket.websocket.common": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "mc.org.eclipse.jetty.websocket.websocket.client.lc/link_check": 1
+                }
+            },
+            "mc.org.eclipse.jetty.websocket.websocket.client.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/org.eclipse.jetty.websocket/websocket-client/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.websocket.websocket.client": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
+            "mc.org.eclipse.jetty.websocket.websocket.common": {
+                "metadata": {
+                    "archIndependent": true,
+                    "buildType": "COPY",
+                    "prefix": "mc/packages/org.eclipse.jetty.websocket/websocket-common/src"
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.jetty.io": "Strong,HEAD",
+                    "mc.org.eclipse.jetty.jetty.util": "Strong,HEAD",
+                    "mc.org.eclipse.jetty.websocket.websocket.api": "Strong,HEAD"
+                },
+                "verifyDeps": {
+                    "mc.org.eclipse.jetty.websocket.websocket.common.lc/link_check": 1
+                }
+            },
+            "mc.org.eclipse.jetty.websocket.websocket.common.lc": {
+                "metadata": {
+                    "archIndependent": true,
+                    "prefix": "mc/packages/org.eclipse.jetty.websocket/websocket-common/lc",
+                    "qbtEnv": {
+                        "JDK": "1_8"
+                    }
+                },
+                "normalDeps": {
+                    "mc.org.eclipse.jetty.websocket.websocket.common": "Weak,HEAD",
+                    "qbt_fringe.link_checker.release": "Weak,HEAD"
+                }
+            },
             "mc.org.hamcrest.hamcrest.core": {
                 "metadata": {
                     "archIndependent": true,
@@ -1552,7 +1738,7 @@
                 }
             }
         },
-        "version": "fd02d71bd5c2b3b02fa602035341612358d97d6d"
+        "version": "595fc481af1ac242c5132ae3dd2c010cf4f4ce9d"
     },
     "eclipse_gen": {
         "packages": {
